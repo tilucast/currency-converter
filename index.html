@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body class="container"></body>
+
+<h1>Conversor de Moedas</h1>
+
+<section class="conversor">
+    <input type="number" name="numero1" id="numero1" step="any" oninput="conversor._adicionarConversao()" />
+
+    <select id="moeda1" onchange="conversor._adicionarConversao()">
+        <option value="USD">US Dollar</option>
+        <option value="BRL">Brazillian Real</option>
+        <option value="MXN">Mexican Peso</option>
+        <option value="JPY">Japanese Yen</option>
+        <option value="CNY">Chinese Yuan</option>
+        <option value="CAD">Canadian Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="AUD">Australian Dollar</option>
+    </select>
+
+    <p id="conversao"></p>
+    <p id="rate">0</p>
+
+    <img class="exchange-svg" src="euro.svg" onclick="conversor._trocarValores()">
+
+    <select id="moeda2" onchange="conversor._adicionarConversao()">
+        <option value="USD">US Dollar</option>
+        <option value="BRL">Brazillian Real</option>
+        <option value="MXN">Mexican Peso</option>
+        <option value="JPY">Japanese Yen</option>
+        <option value="CNY">Chinese Yuan</option>
+        <option value="CAD">Canadian Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="AUD">Australian Dollar</option>
+    </select>
+
+</section>
+<script src="js/Conversor.js"></script>
+
+</html>

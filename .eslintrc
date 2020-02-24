@@ -1,0 +1,10 @@
+{
+    "extends": ["wesbos"],
+    "rules": {
+        "no-undef": 0,
+        "no-unused-vars": 0,
+        "no-plusplus": 0,
+        "class-methods-use-this": "off",
+        "no-multi-assign": "off"
+    }
+}

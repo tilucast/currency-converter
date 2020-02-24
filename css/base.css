@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
