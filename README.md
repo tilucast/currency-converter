@@ -13,4 +13,4 @@ atualizarei o código para MVC. ( Mesmo sendo overkill, pois o projeto é minús
 # A API
 
 É a <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a>.
-Entre no link para maiores informações ( API Gratúita. )
+Entre no link para maiores informações ( API Gratuita. )
